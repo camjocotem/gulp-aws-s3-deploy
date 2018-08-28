@@ -1,0 +1,32 @@
+{
+  "name": "automated-s3-deploy",
+  "version": "1.0.0",
+  "description": "A first attempt at automatically deploying to S3 via an AWS lambda function\r ----",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camjocotem/Automated-S3-deploy.git"
+  },
+  "keywords": [
+    "automated",
+    "s3",
+    "aws",
+    "deployment",
+    "deploy",
+    "gulp"
+  ],
+  "author": "Jonny Campbell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camjocotem/Automated-S3-deploy/issues"
+  },
+  "homepage": "https://github.com/camjocotem/Automated-S3-deploy#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-awspublish": "^3.3.0",
+    "node-env-file": "^0.1.8"
+  }
+}
